@@ -8,7 +8,7 @@
 #define MAX 100
 #define INF 99999999
 using namespace std;
-vector<pair<int, int>> graph[1001];
+vector<pair<int, int >> graph[1001];
 int N, M;
 vector<int> dist(1001, INF);
 vector<pair<int, int>> greedy_way;
